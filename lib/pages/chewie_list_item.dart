@@ -22,7 +22,7 @@ class _ChewieListItemState extends State<ChewieListItem> {
     // TODO: implement initState
     super.initState();
     _chewieController = ChewieController(videoPlayerController: widget.videoPlayerController,aspectRatio: 16/9
-    ,autoInitialize: true);
+    ,autoInitialize: true,autoPlay: true,allowMuting: true);
   }
 
   @override
